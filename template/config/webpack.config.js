@@ -3,17 +3,21 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const alias = require("./alias");
 
+const SCRIPT_REG = /\.(ts|js)x?$/
+const STYLE_REG = /\.css$/i
+
 module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
   mode: "development",
   devtool: "inline-source-map",
   devServer: {
     hot: true,
+    open: true,
   },
   module: {
     rules: [
       {
-        test: /\.(ts|js)x?$/,
+        test: SCRIPT_REG,
         exclude: /node_modules/,
         use: [
           {
@@ -29,7 +33,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.css$/i,
+        test: STYLE_REG,
         use: ["style-loader", "css-loader"]
       }
     ]
