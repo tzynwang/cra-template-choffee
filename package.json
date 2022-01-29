@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx create-react-app template-test --template file:./../cra-template-choffee && cd template-test && npm run dev",
+    "delete": "rm -r template-test"
   },
   "keywords": ["react", "create-react-app", "template"],
   "author": "Tzu Yin (Charlie)",
