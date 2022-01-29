@@ -1,7 +1,7 @@
 {
   "name": "cra-template-choffee",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A Create React App template pre-install with typescript and webpack, gh-pages deploy",
   "main": "index.js",
   "scripts": {
     "build": "npx create-react-app template-test --template file:./../cra-template-choffee && cd template-test && npm run dev",
