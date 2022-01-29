@@ -1,7 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const alias = require("./alias");
+const alias = require("./../config/alias");
 
 const SCRIPT_REG = /\.(ts|js)x?$/
 const STYLE_REG = /\.css$/i
