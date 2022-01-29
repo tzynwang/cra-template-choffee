@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx create-react-app template-test --template file:./../cra-template-choffee && cd template-test && npm run dev",
+    "build": "npx create-react-app template-test --template file:./../cra-template-choffee && cd template-test && npm run dev",
     "delete": "rm -r template-test"
   },
   "keywords": ["react", "create-react-app", "template"],
