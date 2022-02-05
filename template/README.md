@@ -2,10 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), with template `choffee`.
 
-`npx create-react-app react-fox --template choffee`
-
 Install the following packages by default:
-
 - `typescript`
 - (dev) `webpack`
 
