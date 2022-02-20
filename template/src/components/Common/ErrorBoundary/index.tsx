@@ -1,6 +1,7 @@
 import React, { memo } from 'react'
 
 import { Props, State } from './types'
+import './styles.css'
 
 const INITIAL_STATE: State = {
   hasError: false,
@@ -31,10 +32,10 @@ class ErrorBoundary extends React.Component<Props, State> {
 
     if (hasError) {
       return (
-        <main>
-          <h1>Oops: {errorMessage}</h1>
-          <pre>{callStack}</pre>
-        </main>
+        <div>
+          <div className="error-boundary-title">Oops: {errorMessage}</div>
+          <pre className="error-boundary-message">{callStack}</pre>
+        </div>
       )
     }
 
