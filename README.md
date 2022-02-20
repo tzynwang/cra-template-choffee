@@ -1,6 +1,6 @@
 # cra-template-choffee
 
-```ts
+```string
 npx create-react-app react-fox --template choffee
 ```
 
