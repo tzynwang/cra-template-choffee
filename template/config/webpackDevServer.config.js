@@ -20,6 +20,8 @@ module.exports = {
     host: HOST,
     port: PORT,
     hot: true,
+    open: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
