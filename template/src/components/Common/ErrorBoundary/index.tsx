@@ -1,7 +1,8 @@
 import React, { memo } from 'react'
+import classNames from 'classnames'
 
+import Styles from  './index.module.css'
 import { Props, State } from './types'
-import './styles.css'
 
 const INITIAL_STATE: State = {
   hasError: false,
@@ -33,8 +34,8 @@ class ErrorBoundary extends React.Component<Props, State> {
     if (hasError) {
       return (
         <div>
-          <div className="error-boundary-title">Oops: {errorMessage}</div>
-          <pre className="error-boundary-message">{callStack}</pre>
+          <div className={classNames(Styles.errorBoundaryTitle)}>Oops: {errorMessage}</div>
+          <pre className={classNames(Styles.errorBoundaryMessage)}>{callStack}</pre>
         </div>
       )
     }
