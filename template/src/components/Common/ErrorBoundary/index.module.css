@@ -1,4 +1,4 @@
-.error-boundary-title {
+.errorBoundaryTitle {
   display: block;
   font-weight: bold;
   font-size: 2em;
@@ -9,7 +9,7 @@
   margin-inline-end: 0;
 }
 
-.error-boundary-message {
+.errorBoundaryMessage {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
