@@ -1,16 +1,11 @@
 .main {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #D7C4BB;
-}
-
-.main > *:not(:last-child) {
-  margin-bottom: 1rem;
+  gap: 16px;
 }
 
 .mainCode {
@@ -18,9 +13,4 @@
   font-size: 1rem;
   color: #d63384;
   word-wrap: break-word;
-}
-
-.mainAnchor {
-  color: #d63384;
-  text-decoration: none;
 }
