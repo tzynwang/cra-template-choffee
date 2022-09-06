@@ -2,17 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), with template `choffee`.
 
-Install the following packages by default:
-- `typescript`
-- (dev) `webpack`
+Install `typescript` by default.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm run dev`
+### `npm run start`
 
-Runs the app in the development mode.\
+Launch the app locally.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
@@ -28,8 +26,8 @@ Use `@Components/path/to/the/component` to import any component from anywhere.\
 
 ```ts
 // src/index.tsx
-import App from '@Components/App'
-import ErrorBoundary from '@Components/Common/ErrorBoundary'
+import App from '@Components/App';
+import ErrorBoundary from '@Components/Common/ErrorBoundary';
 ```
 
 ## Folder Structure
@@ -60,7 +58,6 @@ src/
       ErrorBoundary/
         index.tsx
         types.d.ts
-    Layout/
   index.css
   index.tsx
   react-app.env.d.ts
@@ -69,6 +66,7 @@ src/
 package.json
 README.md
 tsconfig.json
+tsconfig.path.json
 ```
 
 ## Author
