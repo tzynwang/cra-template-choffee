@@ -8,7 +8,7 @@ function App(): React.ReactElement {
     <div className={cn(scopedStyle.main)}>
       <div>Hello world, this site is created by</div>
       <code className={cn(scopedStyle.mainCode)}>
-        npx create-react-app template --choffee
+        npx create-react-app &lt;your-app-name&gt; template --choffee
       </code>
     </div>
   );
