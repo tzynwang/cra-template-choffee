@@ -1,7 +1,7 @@
 {
   "name": "cra-template-choffee",
   "version": "1.1.0",
-  "description": "A Create React App template pre-install with typescript and webpack, gh-pages deploy",
+  "description": "A create-react-app template pre-install with typescript and gh-pages.",
   "scripts": {
     "build": "npx create-react-app template-test --template file:./../cra-template-choffee && cd template-test && npm run start",
     "delete": "rm -r template-test"
@@ -12,5 +12,12 @@
     "template"
   ],
   "author": "Tzu Yin (Charlie)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzynwang/cra-template-choffee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tzynwang/cra-template-choffee/issues"
+  }
 }
